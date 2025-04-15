@@ -1,5 +1,3 @@
-Okay, here is a draft for the README file based on the text you provided:
-
 # Mobile Engineer Assignment: Real-Time Exchange Rate Tracker
 
 ## Objective
