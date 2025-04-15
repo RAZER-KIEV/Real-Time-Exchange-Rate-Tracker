@@ -17,6 +17,7 @@ Create a mobile application that displays real-time exchange rates for a list of
     * Only assets not already on the board are shown.
     * Selected assets persist between sessions using Room DB. Data is backed by the database, following the "Single source of truth" pattern.
       ![Add asset screen](screenshots/add_asset_selected_few_curr.png)
+    * Search functionality also implemented.
       ![Add asset screen with search](screenshots/add_asset_with_search.png)
 3.  **Remove Asset:** Users can remove assets from their list. Removed assets become available again on the "Add Asset" screen.
 
@@ -49,7 +50,7 @@ Create a mobile application that displays real-time exchange rates for a list of
 ## Submission
 
 * Code uploaded to GitHub.
-* Screenshots added (optional).
+* Screenshots added.
 
 ## Estimated Time vs. Actual Time
 
