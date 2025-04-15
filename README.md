@@ -13,10 +13,13 @@ Create a mobile application that displays real-time exchange rates for a list of
 1.  **Home Screen:** Displays a list of selected assets (e.g., USD, EUR, BTC) and their current exchange rates[cite: 4].
     * A fake dataset of 20 assets was generated[cite: 5].
     * Exchange rates auto-update. A fake repository simulates API updates with randomized values since free APIs didn't support 3-5 second updates[cite: 6].
+      ![Home screen](screenshots/exchange_rates.png)
 2.  **Add Asset Screen:** A searchable screen to browse and add available currencies/assets to the board[cite: 7].
     * Implemented selection of multiple currencies at once, sorted by whether they are cryptocurrencies[cite: 8].
     * Only assets not already on the board are shown[cite: 9].
     * Selected assets persist between sessions using Room DB[cite: 10, 11]. Data is backed by the database, following the "Single source of truth" pattern[cite: 12].
+      ![Add asset screen](screenshots/add_asset_selected_few_curr.png)
+      ![Add asset screen with search](screenshots/add_asset_with_search.png)
 3.  **Remove Asset:** Users can remove assets from their list[cite: 13]. Removed assets become available again on the "Add Asset" screen[cite: 14].
 
 ### Data Source
@@ -54,3 +57,4 @@ Create a mobile application that displays real-time exchange rates for a list of
 
 * **Estimated:** 4–6 hours[cite: 27].
 * **Actual:** Approximately 12 hours[cite: 27].
+
